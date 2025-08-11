@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GESHIKT - Delivering quickly and with care</title>
+    <meta
+      name="description"
+      content="Geshikt delivery service - Swift and reliable delivery by moped car and van within Antwerp. Contact us at 03.808.51.51 or via WhatsApp."
+    />
+    <!-- Favicon and app icons - Logo in browser tab -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="geshikt-logo-new.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="geshikt-logo-new.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="geshikt-logo-new.png"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon-logo.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="geshikt-logo-new.png" />
+    <link rel="shortcut icon" href="geshikt-logo-new.png" />
+    <meta name="msapplication-TileImage" content="geshikt-logo-new.png" />
+    <meta name="msapplication-TileColor" content="#4A6FA5" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Removed inline <style> and linked to style.css -->
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">
+        <img src="geshikt-logo-new.png" alt="GESHIKT Logo" class="logo-image" />
+      </a>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="tel:038085151" class="call-button">📞 Call Now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section with-street-bg">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="circle-title">Delivering quickly and with care</h1>
+            <p class="circle-disclaimer">
+              * prices are updated when the job is done, for specific pricing
+              call in our office.
+            </p>
+            <a
+              href="https://app.geshikt.be/"
+              target="_blank"
+              class="wave-button"
+              >Order Now*</a
+            >
+          </div>
+          <div class="hero-image">
+            <svg
+              width="500"
+              height="400"
+              viewBox="0 0 500 400"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <!-- Background -->
+              <rect width="500" height="400" fill="#f0f7ff" />
+
+              <!-- Buildings in background -->
+              <rect x="50" y="150" width="60" height="150" fill="#e1e8f0" />
+              <rect x="120" y="120" width="80" height="180" fill="#d1d8e0" />
+              <rect x="210" y="140" width="70" height="160" fill="#e1e8f0" />
+              <rect x="290" y="110" width="90" height="190" fill="#d1d8e0" />
+              <rect x="390" y="130" width="60" height="170" fill="#e1e8f0" />
+
+              <!-- Windows -->
+              <rect x="60" y="160" width="8" height="8" fill="#3b5998" />
+              <rect x="75" y="160" width="8" height="8" fill="#3b5998" />
+              <rect x="60" y="180" width="8" height="8" fill="#3b5998" />
+              <rect x="75" y="180" width="8" height="8" fill="#3b5998" />
+
+              <!-- Delivery truck -->
+              <rect
+                x="150"
+                y="260"
+                width="120"
+                height="60"
+                rx="5"
+                fill="#25D366"
+              />
+              <rect x="160" y="270" width="80" height="30" fill="#fff" />
+              <circle cx="175" cy="330" r="15" fill="#333" />
+              <circle cx="240" cy="330" r="15" fill="#333" />
+              <circle cx="175" cy="330" r="8" fill="#666" />
+              <circle cx="240" cy="330" r="8" fill="#666" />
+
+              <!-- Delivery person -->
+              <circle cx="320" cy="250" r="15" fill="#ffdbac" />
+              <rect x="310" y="265" width="20" height="40" fill="#3b5998" />
+              <rect x="305" y="305" width="10" height="20" fill="#333" />
+              <rect x="320" y="305" width="10" height="20" fill="#333" />
+              <rect x="300" y="275" width="15" height="25" fill="#ffdbac" />
+              <rect x="320" y="275" width="15" height="25" fill="#ffdbac" />
+
+              <!-- Package -->
+              <rect x="280" y="280" width="20" height="20" fill="#8B4513" />
+              <path
+                d="M285 280 L295 280 M290 275 L290 305"
+                stroke="#654321"
+                stroke-width="2"
+              />
+
+              <!-- Speed lines -->
+              <path
+                d="M100 200 L130 200 M105 210 L125 210 M110 220 L135 220"
+                stroke="#3b5998"
+                stroke-width="2"
+                opacity="0.5"
+              />
+
+              <!-- Delivery route path -->
+              <path
+                d="M350 290 Q380 250 420 280 Q450 320 480 290"
+                stroke="#25D366"
+                stroke-width="3"
+                fill="none"
+                stroke-dasharray="5,5"
+              />
+
+              <!-- Location pins -->
+              <circle cx="480" cy="290" r="8" fill="#ff4444" />
+              <path
+                d="M480 285 L480 295 M475 290 L485 290"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-container">
+        <h2 class="section-title">What We Do</h2>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">🏍️</div>
+            <h3 class="card-title">Local Deliveries (Moped)</h3>
+            <p class="card-description">
+              Swift and reliable delivery by moped within the city for efficient
+              parcel transport.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🚗</div>
+            <h3 class="card-title">Local Deliveries (Car)</h3>
+            <p class="card-description">
+              Efficient and secure parcel delivery using our car fleet for
+              larger items in your area.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">📦</div>
+            <h3 class="card-title">Extra Stops & Boxes</h3>
+            <p class="card-description">
+              Flexible options for multiple stops and handling additional
+              packages in a single order.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-container">
+        <h2 class="section-title">Our Simple Process</h2>
+        <div class="process-step-grid">
+          <div class="process-step">
+            <div class="process-step-icon">1</div>
+            <h3 class="process-step-title">Book Your Delivery</h3>
+            <p class="process-step-description">
+              Easily schedule your pickup and delivery via our online portal or
+              by phone.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-step-icon">2</div>
+            <h3 class="process-step-title">Driver Dispatched</h3>
+            <p class="process-step-description">
+              Our nearest driver is quickly dispatched to your specified
+              location for collection.
+            </p>
+          </div>
+          <div class="process-step">
+            <div class="process-step-icon">3</div>
+            <h3 class="process-step-title">Safe Delivery</h3>
+            <p class="process-step-description">
+              Your package is delivered securely and promptly to its final
+              destination.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-container">
+        <h2 class="section-title">Extra Services</h2>
+        <div class="cards-grid">
+          <div class="card">
+            <div class="card-icon">⏰</div>
+            <h3 class="card-title">Hourly Transport</h3>
+            <p class="card-description">
+              For larger deliveries (refrigerators, >8 boxes), charged hourly
+              from €24.79 for the first 25 mins.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🚚</div>
+            <h3 class="card-title">Pallet Services</h3>
+            <p class="card-description">
+              Specialized transport for extra-large items and pallets, starting
+              from €75 per hour.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">🗓️</div>
+            <h3 class="card-title">Daily Rates</h3>
+            <p class="card-description">
+              Custom daily delivery rates available for our regular business
+              customers; contact office for details.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2 class="section-title">Get in Touch</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-details">
+          <div class="contact-item">
+            <strong>Address:</strong>
+            <span>Charlottalei 26b, 2018 Antwerpen, Belgium</span>
+          </div>
+          <div class="contact-item">
+            <strong>Phone:</strong>
+            <span><a href="tel:038085151">03.808.51.51</a></span>
+          </div>
+          <div class="contact-item">
+            <strong>Email:</strong>
+            <span><a href="mailto:Info@geshikt.be">Info@geshikt.be</a></span>
+          </div>
+          <div class="contact-item">
+            <strong>WhatsApp:</strong>
+            <span
+              ><a href="https://wa.me/3238085151" target="_blank"
+                >Message us on WhatsApp</a
+              ></span
+            >
+          </div>
+          <div class="contact-item">
+            <strong>Working Hours:</strong>
+            <span
+              >Mon-Fri: 09:00 – 19:00<br />(Restaurants book until 21:00)</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="terms-section">
+        <h2 class="section-title">Terms of Service</h2>
+        <p>
+          Welcome to Geshikt's Terms of Service. These terms outline the rules
+          and regulations for the use of Geshikt's Website and delivery
+          services. By accessing this website, we assume you accept these terms
+          and conditions. Do not continue to use Geshikt if you do not agree to
+          all terms stated on this page.
+        </p>
+
+        <h3>1. Payment Policies</h3>
+        <ul>
+          <li>
+            All deliveries must be paid in full upon pick-up or at the
+            destination.
+          </li>
+          <li>
+            A fee applies for payment collection. Clients with accounts receive
+            monthly invoices.
+          </li>
+          <li>
+            Unpaid deliveries at the destination will be returned to the sender,
+            incurring a return fee.
+          </li>
+          <li>
+            Geshikt can lay out a maximum of €150 for deliveries, which is
+            charged to the sender if not paid at the destination.
+          </li>
+        </ul>
+
+        <h3>2. Delivery Protocols</h3>
+        <ul>
+          <li>
+            Parcels are delivered to apartment doors unless an elevator is
+            unavailable or the parcel doesn't fit, in which case it's left at
+            the main door.
+          </li>
+          <li>
+            For houses, deliveries are made to the front door; if no one is
+            available, it's left with a neighbor.
+          </li>
+        </ul>
+
+        <h3>3. Cancellation Policy</h3>
+        <p>
+          Cancellation is only possible before the driver has been dispatched
+          for your order.
+        </p>
+
+        <h3>4. Limitation of Liability</h3>
+        <p>
+          Geshikt disclaims responsibility for damages during transit, errors in
+          delivery addresses, lost or stolen money, or delivery of illegal
+          goods. We are also not responsible for delays or damages caused by
+          delays.
+        </p>
+
+        <h3>5. Business Customer Terms</h3>
+        <p>
+          Business customers with accounts are charged a €10 admin fee if their
+          monthly total is below €20 Exc. Any extra service beyond standard
+          delivery incurs a minimum €25 fee.
+        </p>
+
+        <h3>6. Parcel Weight & Size</h3>
+        <p>Boxes over 20 KG are counted as two boxes for pricing purposes.</p>
+
+        <h3>7. Cookies</h3>
+        <p>
+          This website uses cookies to enhance your user experience. By
+          continuing to use our site, you consent to the use of cookies.
+        </p>
+
+        <h3>8. Contact Information for Queries</h3>
+        <p>
+          If you have any questions about these Terms, please contact us at
+          Info@geshikt.be or call us at 03.808.51.51.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Sitemap</a>
+        <a href="#">Careers</a>
+      </div>
+      <!-- <div class="social-icons">
+        <a href="#" class="social-icon">F</a>
+        <a href="#" class="social-icon">T</a>
+        <a href="#" class="social-icon">I</a>
+        <a href="#" class="social-icon">L</a>
+      </div> -->
+      <span>&copy; 2025 Geshikt. All rights reserved.</span>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+      <a
+        href="https://wa.me/3238085151"
+        target="_blank"
+        class="whatsapp-button"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.472 14.382C17.253 14.272 16.189 13.758 15.993 13.686C15.797 13.614 15.647 13.578 15.497 13.794C15.347 14.01 14.949 14.487 14.822 14.635C14.695 14.783 14.568 14.801 14.349 14.691C14.13 14.581 13.422 14.331 12.573 13.572C11.916 12.982 11.482 12.26 11.355 12.044C11.228 11.828 11.342 11.707 11.453 11.597C11.553 11.497 11.672 11.333 11.782 11.207C11.892 11.081 11.928 10.991 12 10.843C12.072 10.695 12.036 10.569 11.981 10.459C11.926 10.349 11.482 9.29 11.31 8.858C11.138 8.426 10.966 8.48 10.828 8.474C10.69 8.468 10.54 8.468 10.39 8.468C10.24 8.468 9.993 8.522 9.797 8.738C9.601 8.954 9.043 9.468 9.043 10.527C9.043 11.586 9.817 12.609 9.928 12.757C10.038 12.905 11.482 15.077 13.747 16.024C14.282 16.263 14.7 16.415 15.023 16.526C15.558 16.683 16.038 16.659 16.415 16.604C16.835 16.543 17.674 16.084 17.846 15.581C18.018 15.078 18.018 14.647 17.963 14.564C17.908 14.481 17.758 14.426 17.539 14.316L17.472 14.382Z"
+            fill="white"
+          />
+          <path
+            d="M20.52 3.449C18.24 1.245 15.24 0.045 12.045 0.045C5.463 0.045 0.111 5.397 0.108 11.982C0.108 14.103 0.669 16.17 1.728 17.973L0 24L6.231 22.32C7.977 23.28 9.975 23.793 12.045 23.793C18.627 23.793 23.979 18.441 23.982 11.856C23.982 8.658 22.8 5.652 20.52 3.449ZM12.045 21.789C10.227 21.789 8.445 21.312 6.912 20.418L6.555 20.205L2.838 21.204L3.855 17.604L3.618 17.229C2.628 15.642 2.103 13.83 2.106 11.982C2.109 6.498 6.564 2.043 12.048 2.043C14.709 2.043 17.187 3.087 19.062 4.965C20.937 6.843 21.978 9.321 21.975 11.982C21.972 17.466 17.517 21.921 12.033 21.921L12.045 21.789Z"
+            fill="white"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Removed inline <script> and linked to script.js -->
+  </body>
+</html>

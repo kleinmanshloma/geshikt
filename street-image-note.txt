@@ -1,0 +1,3 @@
+/* Street background image - This is a placeholder URL */
+/* You'll need to save the street image as 'street-background.jpg' in your project folder */
+/* The image should show a street with delivery vehicles similar to the one from geshikt.be */
