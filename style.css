@@ -173,14 +173,14 @@ main {
 
 /* Street background styles - activated */
 .hero-section.with-street-bg {
-  background: linear-gradient(rgba(74, 111, 165, 0.7), rgba(59, 89, 152, 0.7));
+  background: linear-gradient(rgba(20, 69, 142, 0.7), rgba(59, 89, 152, 0.7));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .hero-section.with-street-bg .circle-container {
-  background: rgba(59, 89, 152, 0.95);
+  background: rgba(12, 50, 133, 0.95);
   backdrop-filter: blur(2px);
   border: 3px solid rgba(255, 255, 255, 0.4);
 }
